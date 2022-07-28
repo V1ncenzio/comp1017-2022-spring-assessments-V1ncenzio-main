@@ -1,0 +1,202 @@
+/* 
+
+COLOUR CODES
+
+#4F6863;  Stormcloud Green
+#18211e;  Dark Jungle Green
+#0e1c1c;  Starting with Succs
+
+
+TYPOGRAPHY
+
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Playfair Display', serif;
+
+*/
+
+body {
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+ 
+body div {
+	width:960px;
+	margin:0 auto;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	/* Put your css code here */
+}
+
+h2 {
+	/* Put your css code here */
+}
+
+h3 {
+	/* Put your css code here */
+}
+
+h4 {
+	/* Put your css code here */
+}
+
+a {
+	/* Put your css code here */
+}
+
+a:hover {
+	/* Put your css code here */
+}
+
+p {
+
+	/* Put your css code here */
+}
+
+/* HEADER */
+
+header {
+	color: white;
+	height: 700px;
+}
+
+/* HEADER NAV */
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #4f6864; 
+	height: 100px;
+}
+
+header nav ul:nth-child(1) {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+header nav ul:nth-child(1) a:hover {
+	text-decoration: none;
+}
+
+header nav ul:nth-child(2) {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+/* HEADER SECTION */
+
+header section {
+	background-image: url(../img/header-banner.jpg);
+	/* image size 960px by 600px */
+	/* measured content height 340px */
+	/* measured content width 475px */
+	height: 340px;
+	width: 475px;
+	/* 600px - 340px = 260px - 100px padding top = 160px padding bottom*/
+	/* 960px - 475px = 485px - 32px padding left = 453px padding right*/
+	padding: 100px 453px 160px 32px;
+	text-align: left;
+}
+
+header section h1 {
+	/* measured distance 475px */
+	width: 480px;
+}
+
+header section p {
+	font-size: 30px;
+	width: 430px;
+	/* measured margin 30px top-bottom */
+	margin: 30px 0px;
+}
+
+/* Turning an anchor into a button */
+header section div {
+	background-color: #4f6864;
+	height: 80px;
+	width: 245px;
+	border-radius: 10px;
+	margin-left: 0;
+	text-align: center;
+}
+
+header section div a {
+	font-size: 32px;
+	line-height: 80px;
+}
+
+/* MAIN */
+
+main {
+	/* Put your css code here */
+}
+
+/* MAIN SECTION 1 */
+
+main section:nth-child(1) {
+	/* Put your css code here */
+}
+
+main section:nth-child(1) div {
+	/* Put your css code here */
+}
+
+main section:nth-child(1) div h2 {
+	/* Put your css code here */
+}
+
+main section:nth-child(1) div p:last-of-type {
+	/* Put your css code here */
+}
+
+/* MAIN SECTION 2 */
+
+main section:nth-child(2) > div {
+	background-image: url(../img/starting-with-succulents.jpg);
+	/* image size 960px by 200px */
+	/* make the content height the image height and make a flexbox container */
+	/* now no measurements are needed just center*/
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+main section:nth-child(2) > div h2 {
+	background-color: white;
+	padding: 0px 10px;
+}
+
+/* The following css applies to BOTH articles */
+main section:nth-child(2) article {
+	display: flex;
+}
+
+main section:nth-child(2) article div {
+	width: 480px;
+	height: 500px;
+	background-color: #0e1c1c;
+	color: white;
+}
+
+main section:nth-child(2) article div h3 {
+	margin-left: 32px;
+}
+
+/* FOOTER */
+/* Put all of your css code here for the footer */

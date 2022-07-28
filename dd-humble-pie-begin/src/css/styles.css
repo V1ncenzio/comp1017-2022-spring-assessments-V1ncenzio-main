@@ -1,0 +1,229 @@
+/* 
+
+COLOUR PALETTE
+
+body        #faefef
+section     #f5e0e0   
+text        #2d2824
+accent      #f15156
+
+ */
+
+body {
+	background-color: #faefef;
+	color: #2d2824;
+	font-family: 'Cantarell', sans-serif;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	line-height: 1.2;
+	font-size: 100%;
+}
+
+/* TYPOGRAPHY for both INDEX PAGE and CONTACT US PAGE */
+
+h1, h2, h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1, h2 {
+	color: #f15156;
+	font-family: 'Fjalla One', sans-serif;
+}
+	
+h1 {
+	/* Put your css code here */
+	
+}
+
+h2 {
+	/* Put your css code here */
+	
+}
+
+h3 {
+	/* Put your css code here */
+	
+}
+
+p.bold {
+	/* Put your css code here */
+	
+}
+
+/* GENERAL LAYOUT   INDEX PAGE*/
+
+header.index, main.index section {
+	margin-bottom: 100px;
+}
+
+/* HEADER   INDEX PAGE */
+
+header.index {
+	background-image: url('../img/header-banner.jpg');
+	height: 1000px;
+}
+
+header.index p {
+	font-size: 24px;
+}
+
+/* HEADER NAV  for both INDEX PAGE and CONTACT US PAGE */
+
+header nav {
+	display: flex;
+	align-items: center;
+	background-color: rgba(250,239,239,0.70);
+	padding: 0 50px;
+	height: 100px;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: center;
+	margin-left: 450px;
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #37342f;
+	margin-left: 30px;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline;	
+}
+
+/* HEADER SECTION   INDEX PAGE */
+
+header section {
+	/* Put your css code here */
+	
+}
+
+a.find-us-button {
+	/* Put your css code here */
+	
+}
+
+a.find-us-button:hover {
+	/* Put your css code here */
+	
+}
+
+/* MAIN   INDEX PAGE   OUR STORY */
+
+/* Put all of your css code here for the main of the index page our-story section*/
+
+
+
+/* MAIN   INDEX PAGE   FIND US */
+
+/* Put all of your css code here for the main of the index page find-us section */
+
+
+
+/* FOOTER  for both INDEX PAGE and CONTACT US PAGE*/
+
+/* Put all of your css code here for the footer of both the index page and the contact us page */
+
+
+
+/* CONTACT US PAGE */
+
+.contact-container {
+	background-image: url(../img/what-the-truck.jpg);
+	height: 1605px;
+	background-repeat: no-repeat;
+}
+
+/* MAIN   CONTACT US PAGE */
+
+main.contact {
+	padding: 100px 50px;
+}
+
+main.contact section {
+	border: 1px solid #37342f;
+	background-color: rgba(250,239,239,0.75);
+	width: 450px;
+	margin-left: 155px;
+	padding: 50px;
+}
+
+main.contact section p {
+	margin-bottom: 16px;
+}
+
+main.contact section p.bold {
+	margin: 0;
+}
+
+main.contact hr {
+	margin: 50px 0;
+	border: 0;
+    height: 1px;
+    background: #333;
+}
+
+/* FORM   CONTACT US PAGE */
+
+form div {
+	margin-top: 20px;
+}
+
+form div label {
+	display: block;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+form div input, 
+form div textarea {
+	width: 450px;
+	height: 50px;
+	font-size: 18px;
+}
+
+form div textarea {
+	min-width: 450px;
+	max-width: 450px;
+	min-height: 100px;
+	max-height: 420px;
+}
+
+form div.checkbox input {
+	width: 18px;
+	height: 18px;
+}
+
+form div.checkbox label {
+	display: inline;
+}
+
+form div.button {
+	text-align: center;
+}
+
+form div button {
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 24px;
+	color: #faefef;
+	background-color: #f15156;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+}
+
+form div button:hover {
+	text-decoration: underline;
+}
