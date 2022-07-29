@@ -35,14 +35,22 @@ h1, h2, h3 {
 }
 
 h1 {
+	font-size: 60px;
+	color: white
 	/* Put your css code here */
 }
 
 h2 {
+	font-size: 60px;
+	text-align: center;
 	/* Put your css code here */
 }
 
 h3 {
+	text-align: left;
+	font-size: 35px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	/* Put your css code here */
 }
 
@@ -51,15 +59,22 @@ h4 {
 }
 
 a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	
 	/* Put your css code here */
 }
 
 a:hover {
+	text-decoration: underline;
 	/* Put your css code here */
 }
 
 p {
-
+	padding-bottom: 15px;
+	padding-left: 30px;
+    padding-right: 30px;
 	/* Put your css code here */
 }
 
@@ -141,7 +156,7 @@ header section div a {
 /* MAIN */
 
 main {
-	/* Put your css code here */
+	
 }
 
 /* MAIN SECTION 1 */
