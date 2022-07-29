@@ -57,6 +57,8 @@ h3 {
 h4 {
 	font-weight: bold;
 	font-size: 20px;
+	padding-bottom: 30px;
+	padding-top: 40px;
 }
 
 a:hover {
@@ -79,6 +81,17 @@ p {
 
 
 /* HEADER */
+
+
+.box{
+	display: flex;
+
+}
+
+.box div{
+	width: fit-content;
+
+}
 
 header {
 	color: white;
@@ -153,32 +166,6 @@ header section div a {
 	line-height: 80px;
 }
 
-/* MAIN */
-
-main {
-	
-}
-
-/* MAIN SECTION 1 */
-
-main section:nth-child(1) {
-	/* Put your css code here */
-}
-
-main section:nth-child(1) div {
-	/* Put your css code here */
-}
-
-main section:nth-child(1) div h2 {
-	/* Put your css code here */
-}
-
-main section:nth-child(1) div p:last-of-type {
-	/* Put your css code here */
-}
-
-/* MAIN SECTION 2 */
-
 main section:nth-child(2) > div {
 	background-image: url(../img/starting-with-succulents.jpg);
 	/* image size 960px by 200px */
@@ -222,11 +209,36 @@ main section:nth-child(2) article div h3 {
 }
 
 .blacksucc {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blacksucc-2{
+	font-size: 25px;
+}
+
+.nav1{
+	display: flex;
+	align-items: stretch;
+	text-align: center;
 	
 }
 
-.nav-1 {
-	
+.copy{
+	text-align: center;
+	padding-top: 100px;
 }
 
+.copy2{
+	text-align: center;
+}
 
+.padding{ 
+	padding-top: 100px;
+	padding-bottom: 65px;
+}
+
+.navpad{
+	padding-top: 30px;
+}
