@@ -55,15 +55,8 @@ h3 {
 }
 
 h4 {
-	/* Put your css code here */
-}
-
-a {
-	text-decoration: none;
-	color: white;
-	font-size: 25px;
-	
-	/* Put your css code here */
+	font-weight: bold;
+	font-size: 20px;
 }
 
 a:hover {
@@ -77,6 +70,13 @@ p {
     padding-right: 30px;
 	/* Put your css code here */
 }
+
+.white{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
 
 /* HEADER */
 
@@ -214,4 +214,19 @@ main section:nth-child(2) article div h3 {
 }
 
 /* FOOTER */
-/* Put all of your css code here for the footer */
+.black{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+
+.blacksucc {
+	
+}
+
+.nav-1 {
+	
+}
+
+
