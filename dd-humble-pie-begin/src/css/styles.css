@@ -35,13 +35,13 @@ h1, h2 {
 }
 	
 h1 {
-	/* Put your css code here */
+    font-size: 60px
 	
 }
 
 h2 {
-	/* Put your css code here */
-	
+	font-size: 40px;
+	padding-bottom: 20px;
 }
 
 h3 {
@@ -108,22 +108,96 @@ header section {
 }
 
 a.find-us-button {
-	/* Put your css code here */
-	
-}
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px; 
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f15156;  
+} 
 
 a.find-us-button:hover {
-	/* Put your css code here */
-	
+	text-decoration: underline;
+}
+
+
+.humble-pie{
+	display: flexbox;
+	padding-top: 310px;
+	padding-left: 225px;
+}
+
+.pie-h1{
+	font-size: 65px;
+	padding-right: 190px;
+	padding-bottom: 30px;
+}
+
+.pie-p{
+	padding-right: 200px;
 }
 
 /* MAIN   INDEX PAGE   OUR STORY */
+.our-story{
+	display: flex;
+	padding-bottom: 150px;
+    padding-left: 50px;
+	padding-right: 70px;
+}
 
-/* Put all of your css code here for the main of the index page our-story section*/
+.left{
+	padding-top: 49px;
+	padding-right: 50px;
+	padding-bottom: px;
+}
+
+.up{
+	padding-top: 20px;
+}
 
 
 
 /* MAIN   INDEX PAGE   FIND US */
+
+.find-us{
+display: flex;
+flex-wrap: wrap;
+}
+
+.calender{
+display: flex;
+flex-wrap: wrap;
+}
+
+.monday{
+text-align: start;
+
+
+}
+
+.tuesday{
+text-align: center;
+}
+
+.wednesday{
+text-align:end;
+}
+
+.thursday{
+text-align: start;
+}
+
+.friday{
+text-align: center;
+}
+
+.saturday{
+text-align: end;
+}
 
 /* Put all of your css code here for the main of the index page find-us section */
 
@@ -131,8 +205,39 @@ a.find-us-button:hover {
 
 /* FOOTER  for both INDEX PAGE and CONTACT US PAGE*/
 
-/* Put all of your css code here for the footer of both the index page and the contact us page */
+.footer{
+ text-align: center;
+}
 
+.socialmedia{
+ padding-top: 150px;	
+ padding-bottom: 30px;
+}
+
+.icons{
+ padding-bottom: 30px;
+}
+
+.copyright{
+ padding-bottom: 50px;
+}
+
+.footercontact{
+	text-align: center;
+}
+
+.socialmediacontact{
+	padding-bottom: 30px;
+	padding-top: 50px;
+   }
+   
+   .iconscontact{
+	padding-bottom: 30px;
+   }
+   
+   .copyrightcontact{
+	padding-bottom: 125px;
+   }
 
 
 /* CONTACT US PAGE */
